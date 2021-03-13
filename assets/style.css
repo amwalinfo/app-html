@@ -20,8 +20,8 @@ p {font-family: 'Open Sans', sans-serif;}
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-}
-
+    
+  }
 /* Header */
 .header-wrapper {
     min-width: 100%;
@@ -66,4 +66,17 @@ header .container {
     .container {
       max-width: 960px;
     }
+  }
+
+  /* sidebar */
+  .sidebar {
+    min-width: 300px;
+    border-left: 1px solid #F1F2F2;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .flux_info {
+    width: calc(100% - 300px);
+    padding-right: 15px;
+    padding-left: 15px;
   }
